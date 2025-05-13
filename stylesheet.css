@@ -32,3 +32,40 @@ a {
     padding: 10px;
     
 }
+
+#hero-container {
+    font-family: sans-serif;
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#hero-bigtext {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+#hero-paragraph {
+    color: #E5E7EB;
+    word-wrap: break-word;
+}
+#hero-button {
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    
+}
+#hero-placeholder {
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+.hero-item {
+    margin: 20px;
+}
