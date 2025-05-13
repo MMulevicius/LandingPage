@@ -1,0 +1,34 @@
+body {
+
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#header-container {
+
+    font-family: sans-serif;
+    
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    
+}
+
+#header-logo {
+    color: #fff;
+    flex: 1;
+}
+
+.header-item {
+    
+    justify-content: space-between;
+    padding: 10px;
+    
+}
