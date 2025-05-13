@@ -69,3 +69,43 @@ a {
 .hero-item {
     margin: 20px;
 }
+
+#randominfo-container {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#randominfo {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 900;
+}
+#four-illustrations {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 40px;
+    margin: 40px 0;
+    
+}
+.illustrations {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.illus-box {
+    border: 3px solid black;
+    border-color: #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.illus_subtext {
+    padding: 10px;
+}
