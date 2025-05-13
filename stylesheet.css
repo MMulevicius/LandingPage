@@ -109,3 +109,62 @@ a {
 .illus_subtext {
     padding: 10px;
 }
+
+#quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 500px;
+}
+#quote {
+    font-size: 26px;
+    font-family: sans-serif;
+    
+}
+#quote-author {
+    align-self: flex-end;
+}
+
+#action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+#action-subcontainer {
+    background-color: #3882F6;
+    font-family: sans-serif;
+    border-radius: 10px;
+    width: 1000px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+}
+
+#action-call {
+    color: #fff;
+}
+#action-subtext {
+    color: #E5E7EB;
+}
+#action-button {
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    box-shadow: none;
+}
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: sans-serif;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
